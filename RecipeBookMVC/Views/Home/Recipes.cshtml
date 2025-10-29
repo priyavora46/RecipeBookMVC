@@ -1,0 +1,97 @@
+﻿@using RecipeBookMVC.Models
+@model List<Recipe>
+
+@{
+    ViewBag.Title = "Browse Recipes";
+    var currentDiet = ViewBag.CurrentDiet as string ?? "";
+    var currentCuisine = ViewBag.Cuisine as string ?? "";
+    var currentType = ViewBag.CurrentType as string ?? "";
+}
+
+<div class="search-container">
+    <h1>Browse Recipes by Category</h1>
+    <p>Use the filters below to find recipes by diet, cuisine, or meal type.</p>
+
+    @Html.AntiForgeryToken()
+
+    <!-- ================== FILTER 1: DIET ================== -->
+    <h2>1. Filter by Diet</h2>
+    <div class="filter-buttons-row mb-4">
+        @Html.ActionLink("Show All Diets", "Recipes", new { diet = "", cuisine = currentCuisine, type = currentType },
+            new { @class = "btn-filter reset-circle " + (string.IsNullOrEmpty(currentDiet) ? "active-filter" : "") })
+        @Html.ActionLink("Vegetarian", "Recipes", new { diet = "vegetarian", cuisine = currentCuisine, type = currentType },
+            new { @class = "btn-filter " + (currentDiet == "vegetarian" ? "active-filter" : ""), style = "background-color: #2ECC71;" })
+        @Html.ActionLink("Non-Vegetarian", "Recipes", new { diet = "non-vegetarian", cuisine = currentCuisine, type = currentType },
+            new { @class = "btn-filter " + (currentDiet == "non-vegetarian" ? "active-filter" : ""), style = "background-color: #E74C3C;" })
+    </div>
+
+    <!-- ================== FILTER 2: CUISINE ================== -->
+    <h2>2. Filter by Cuisine</h2>
+    <div class="filter-circles-grid mb-5">
+        @{
+            var cuisines = new List<(string Name, string Color)>
+            {
+                ("Punjabi", "#8E44AD"),
+                ("South Indian", "#27AE60"),
+                ("Gujarati", "#D35400"),
+                ("Italian", "#3498DB"),
+                ("Mexican", "#F39C12"),
+                ("Chinese", "#E67E22"),
+                ("Thai", "#1ABC9C"),
+                ("Mediterranean", "#16A085")
+            };
+        }
+        @foreach (var c in cuisines)
+        {
+            @Html.ActionLink(c.Name, "Recipes", new { diet = currentDiet, cuisine = c.Name, type = currentType },
+                new { @class = "circle-btn " + (currentCuisine == c.Name ? "active-circle" : ""), style = $"background-color: {c.Color};" })
+        }
+        @Html.ActionLink("All Cuisines", "Recipes", new { diet = currentDiet, cuisine = "", type = currentType },
+            new { @class = "circle-btn reset-circle " + (string.IsNullOrEmpty(currentCuisine) ? "active-circle" : "") })
+    </div>
+
+    <!-- ================== FILTER 3: MEAL TYPE ================== -->
+    <h2>3. Filter by Meal Type</h2>
+    <div class="filter-buttons-row mb-4">
+        @{
+            var types = new List<string> { "Breakfast", "Lunch", "Dinner", "Dessert", "Snack" };
+        }
+        @foreach (var t in types)
+        {
+            @Html.ActionLink(t, "Recipes", new { diet = currentDiet, cuisine = currentCuisine, type = t.ToLower().Replace(" ", "") },
+                new { @class = "btn-filter type-filter " + (currentType == t.ToLower().Replace(" ", "") ? "active-filter" : "") })
+        }
+        @Html.ActionLink("All Types", "Recipes", new { diet = currentDiet, cuisine = currentCuisine, type = "" },
+            new { @class = "btn-filter reset-circle " + (string.IsNullOrEmpty(currentType) ? "active-filter" : "") })
+    </div>
+</div>
+
+<!-- ================== RESULTS ================== -->
+<div class="container">
+    <h2>@ViewBag.DisplayQuery</h2>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="recipe-grid">
+            @foreach (var recipe in Model)
+            {
+                <div class="recipe-card">
+                    <img src="@recipe.image" alt="@recipe.title"
+                         onerror="this.onerror=null; this.src='https://placehold.co/300x280/cccccc/333333?text=Image+Not+Found';" />
+                    <div class="recipe-card-content">
+                        <h3>@recipe.title</h3>
+                        <div class="recipe-actions">
+                            @Html.ActionLink("View Recipe", "RecipePage", new { id = recipe.id }, new { @class = "btn-view" })
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p class="text-center" style="font-size: 1.2em; color: #555;">
+            No recipes found. Try adjusting your filters!
+        </p>
+    }
+</div>

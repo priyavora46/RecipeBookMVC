@@ -1,0 +1,399 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\sem 5\\.NET\\RecipeBookMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RecipeBookDB_New/True/SqlTable/dbo.LikedRecipes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\models\\recipedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\models\\recipedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\views\\home\\liked.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\views\\home\\liked.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\views\\home\\recipes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\views\\home\\recipes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PRIYA\\AppData\\Local\\Temp\\jzdwryfe..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\models\\likedrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\models\\likedrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PRIYA\\AppData\\Local\\Temp\\tfbyjw5m..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|d:\\sem 5\\.net\\recipebookmvc\\recipebookmvc\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\models\\services\\spooncularservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\models\\services\\spooncularservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\models\\reciperandomresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\models\\reciperandomresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\views\\home\\recipepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\views\\home\\recipepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|D:\\sem 5\\.NET\\RecipeBookMVC\\recipebookmvc\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7793F776-2128-4363-AC94-1EB13058D219}|RecipeBookMVC\\RecipeBookMVC.csproj|solutionrelative:recipebookmvc\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PRIYA\\AppData\\Local\\Temp\\tfbyjw5m..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PRIYA\\AppData\\Local\\Temp\\tfbyjw5m..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PRIYA\\AppData\\Local\\Temp\\jzdwryfe..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PRIYA\\AppData\\Local\\Temp\\jzdwryfe..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Site.css",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Content\\Site.css",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Content\\Site.css",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Content\\Site.css",
+              "RelativeToolTip": "RecipeBookMVC\\Content\\Site.css",
+              "ViewState": "AgIAAEUBAAAAAAAAAAAIwFQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-20T11:14:46.157Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipeDBContext.cs",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Models\\RecipeDBContext.cs",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Models\\RecipeDBContext.cs",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Models\\RecipeDBContext.cs",
+              "RelativeToolTip": "RecipeBookMVC\\Models\\RecipeDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T10:21:32.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.LikedRecipes [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RecipeBookDB_New/True/SqlTable/dbo.LikedRecipes.sql",
+              "ToolTip": "dbo.LikedRecipes [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-29T18:50:53.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Web.config",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Web.config",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Web.config",
+              "RelativeToolTip": "RecipeBookMVC\\Web.config",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-20T10:08:05.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "RecipeBookMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAmwMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:54:58.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Liked.cshtml",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Home\\Liked.cshtml",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Views\\Home\\Liked.cshtml",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Home\\Liked.cshtml",
+              "RelativeToolTip": "RecipeBookMVC\\Views\\Home\\Liked.cshtml",
+              "ViewState": "AgIAAHcAAAAAAAAAAADwv40AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T07:51:36.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Recipes.cshtml",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Home\\Recipes.cshtml",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Views\\Home\\Recipes.cshtml",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Home\\Recipes.cshtml",
+              "RelativeToolTip": "RecipeBookMVC\\Views\\Home\\Recipes.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAYwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T07:48:33.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SQLQuery2.sql ",
+              "DocumentMoniker": "C:\\Users\\PRIYA\\AppData\\Local\\Temp\\jzdwryfe..sql",
+              "ToolTip": "SQLQuery2.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-29T18:13:57.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "RecipeBookMVC\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwCAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T10:29:32.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RecipeBookMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T11:40:25.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RecipeRandomResult.cs",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Models\\RecipeRandomResult.cs",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Models\\RecipeRandomResult.cs",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Models\\RecipeRandomResult.cs",
+              "RelativeToolTip": "RecipeBookMVC\\Models\\RecipeRandomResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T17:50:45.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LikedRecipe.cs",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Models\\LikedRecipe.cs",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Models\\LikedRecipe.cs",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Models\\LikedRecipe.cs",
+              "RelativeToolTip": "RecipeBookMVC\\Models\\LikedRecipe.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:07:39.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Models\\Recipe.cs",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Models\\Recipe.cs",
+              "RelativeToolTip": "RecipeBookMVC\\Models\\Recipe.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T07:56:34.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\PRIYA\\AppData\\Local\\Temp\\tfbyjw5m..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-29T18:11:50.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SpooncularService.cs",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Models\\Services\\SpooncularService.cs",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Models\\Services\\SpooncularService.cs",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Models\\Services\\SpooncularService.cs",
+              "RelativeToolTip": "RecipeBookMVC\\Models\\Services\\SpooncularService.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAUwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T07:48:47.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RecipePage.cshtml",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Home\\RecipePage.cshtml",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Views\\Home\\RecipePage.cshtml",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Home\\RecipePage.cshtml",
+              "RelativeToolTip": "RecipeBookMVC\\Views\\Home\\RecipePage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T07:51:48.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "RecipeBookMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAADwv14AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T08:50:43.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "RecipeBookMVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T15:23:47.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "RecipeBookMVC\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T15:28:04.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Web.config",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Views\\Web.config",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Web.config",
+              "RelativeToolTip": "RecipeBookMVC\\Views\\Web.config",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-20T12:24:44.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "RecipeBookMVC\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T07:51:24.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ContactMessage.cs",
+              "DocumentMoniker": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Models\\ContactMessage.cs",
+              "RelativeDocumentMoniker": "RecipeBookMVC\\Models\\ContactMessage.cs",
+              "ToolTip": "D:\\sem 5\\.NET\\RecipeBookMVC\\RecipeBookMVC\\Models\\ContactMessage.cs",
+              "RelativeToolTip": "RecipeBookMVC\\Models\\ContactMessage.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T10:33:58.358Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

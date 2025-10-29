@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "About Us";
+}
+
+<div class="about-page">
+    <h1>@ViewBag.Title</h1>
+    <p class="lead">Welcome to the Recipe Book, your ultimate source for delicious, easy-to-make meals!</p>
+
+    <section>
+        <h2>Our Vision: Cooking Made Accessible</h2>
+        <p>
+            At Recipe Book, we believe that the kitchen should be a place of joy, not stress. Our primary goal is to <strong>inspire confidence</strong> in every home cook, regardless of their experience level. We achieve this by meticulously curating and presenting thousands of recipes—from quick weeknight dinners to impressive holiday feasts—all sourced from the extensive and reliable database of the Spoonacular API. We handle the complexity so you can focus on the flavor.
+        </p>
+    </section>
+
+    <section>
+        <h2>The Recipe Book Difference</h2>
+        <p>
+            We designed this platform with the user in mind, providing features that enhance your cooking journey:
+        </p>
+        <ul>
+            <li><strong>Intuitive Search & Filters:</strong> Easily find recipes by ingredient, cuisine (Indian, Italian, etc.), diet (Vegetarian, Non-Vegetarian), and meal type.</li>
+            <li><strong>Personalized Favorites:</strong> Use the 'Like ❤️' button on any recipe to save it to your personal collection for quick access later.</li>
+            <li><strong>Detailed Instructions:</strong> Every recipe comes with step-by-step guidance, preparation times, and nutritional information (where available).</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Our Commitment to Quality</h2>
+        <p>
+            We are dedicated to maintaining the highest quality standards for our content. Every recipe displayed is analyzed for clarity, nutritional value, and adherence to cooking best practices. Our system automatically updates to reflect the latest data from Spoonacular, ensuring you always have access to accurate and timely information. We strive to be the most reliable and trusted recipe resource for your kitchen.
+        </p>
+    </section>
+
+    <section>
+        <h2>Technology Under the Hood</h2>
+        <p>
+            This application is built using modern and reliable technologies to ensure a fast, seamless experience:
+        </p>
+        <ul>
+            <li><strong>Frontend:</strong> ASP.NET MVC with Razor views and a Custom CSS design tailored for a beautiful, Pinterest-style browsing experience.</li>
+            <li><strong>Data Source:</strong> The <strong>Spoonacular API</strong> provides the real-time, comprehensive foundation for all our recipe content.</li>
+            <li><strong>Persistence:</strong> We utilize SQL Server LocalDB to securely manage user data, including contact messages and your saved 'liked' recipes.</li>
+            <li><strong>Platform:</strong> Developed using the .NET Framework 4.7.2 in Visual Studio 2022.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Connect With Us</h2>
+        <p>
+            Your feedback helps us grow! If you have a question about a recipe, a suggestion for a new feature, or simply want to share your favorite dish, please don't hesitate to reach out.
+        </p>
+        <div class="contact-cta">
+            <a href="@Url.Action("Contact", "Home")" class="btn-primary-large">Send us a Message</a>
+        </div>
+    </section>
+</div>

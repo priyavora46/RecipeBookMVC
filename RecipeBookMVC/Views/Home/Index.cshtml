@@ -1,0 +1,103 @@
+﻿@model List<RecipeBookMVC.Models.Recipe>
+
+@{
+    ViewBag.Title = "Home Recipes";
+    var currentDiet = ViewBag.CurrentDiet as string ?? "all";
+}
+
+@section scripts {
+    <script type="text/javascript">
+        function likeRecipe(recipeId, title, imageUri, isVegetarian, buttonElement) {
+
+            if ($(buttonElement).prop('disabled')) return;
+
+            $(buttonElement).prop('disabled', true).text('Saving...');
+
+            $.post('@Url.Action("LikeRecipe", "Home")', {
+                RecipeId: recipeId,
+                RecipeTitle: title,
+                RecipeImageUri: imageUri,
+                IsVegetarian: isVegetarian,
+                __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val()
+            })
+            .done(function(response) {
+                if (response.success) {
+                    $(buttonElement).text("LIKED!").addClass("liked-success").removeClass("btn-like");
+                } else {
+                    $(buttonElement).prop('disabled', false).text('Like ❤️');
+                }
+                alert(response.message);
+            })
+            .fail(function() {
+                alert("Failed to connect to the server or invalid request.");
+                $(buttonElement).prop('disabled', false).text('Like ❤️');
+            });
+        }
+    </script>
+}
+
+<div class="search-container">
+    <h1>Try A New Recipe....</h1>
+
+    <p style="margin-bottom: 25px;">
+        Or, <a href="@Url.Action("Recipes", "Home")" style="font-weight: bold; font-size: 1.1em;">Browse Recipes by Category & Cuisine</a>
+    </p>
+
+    <form method="get" action="@Url.Action("Index", "Home")" class="main-search-form">
+        <input type="text" name="search" placeholder="Search a specific dish or ingredient..." value="@ViewBag.SearchQuery" />
+        <button type="submit">Search</button>
+    </form>
+
+    @Html.AntiForgeryToken()
+</div>
+
+<div class="filter-buttons-row">
+    @Html.ActionLink("Show All", "Index", new { diet = "all", search = ViewBag.SearchQuery },
+        new { @class = "btn-filter " + (currentDiet == "all" ? "active-filter" : "") })
+
+    @Html.ActionLink("Vegetarian", "Index", new { diet = "vegetarian", search = ViewBag.SearchQuery },
+        new { @class = "btn-filter " + (currentDiet == "vegetarian" ? "active-filter" : "") })
+
+    @Html.ActionLink("Non-Vegetarian", "Index", new { diet = "non-vegetarian", search = ViewBag.SearchQuery },
+        new { @class = "btn-filter " + (currentDiet == "non-vegetarian" ? "active-filter" : "") })
+</div>
+
+<h2>@ViewBag.DisplayQuery</h2>
+
+@if (Model != null && Model.Any())
+{
+    <div class="recipe-grid">
+        @foreach (var recipe in Model)
+        {
+            <div class="recipe-card">
+                <img src="@recipe.image" alt="@recipe.title"
+                     onerror="this.onerror=null; this.src='https://placehold.co/300x250/cccccc/333333?text=Image+Not+Found';" />
+
+                <div class="recipe-card-content">
+                    <h3>@recipe.title</h3>
+
+                    <p class="diet-label">
+                        @(recipe.vegetarian ? "🌱 Vegetarian" : "🥩 Non-Vegetarian")
+                    </p>
+
+                    @Html.ActionLink("View Recipe & Instructions", "RecipePage", new { id = recipe.id }, new { @class = "btn-view" })
+
+                    <button type="button" class="btn-like"
+                            onclick="likeRecipe(@recipe.id,
+                                               '@recipe.title.Replace("'", "\\'")',
+                                               '@recipe.image',
+                                               @recipe.vegetarian.ToString().ToLower(),
+                                               this)">
+                        Like ❤️
+                    </button>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p class="text-center" style="font-size: 1.2em; color: #555;">
+        No recipes found for "@ViewBag.SearchQuery". Try searching for something else!
+    </p>
+}
